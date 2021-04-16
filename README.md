@@ -1,1 +1,1 @@
-# React typescript webpack starter
+# Instaclone

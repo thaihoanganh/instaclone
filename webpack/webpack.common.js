@@ -5,7 +5,12 @@ const commonConfig = {
     entry: path.resolve(__dirname, "../", "src", "index.tsx"),
     resolve: {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
-        alias: {},
+        alias: {
+            "@assets": path.resolve(__dirname, "src", "assets"),
+            "@components": path.resolve(__dirname, "src", "components"),
+            "@pages": path.resolve(__dirname, "src", "pages"),
+            "@shared": path.resolve(__dirname, "src", "shared"),
+        },
     },
 
     module: {
